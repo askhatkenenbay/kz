@@ -8,7 +8,7 @@ import java.util.List;
 
 public class TextSortAction {
 
-	public static String sort(int sortType, List<Paragraph> textPartList){
+	public static String sort(int sortType, List<Paragraph> textPartList) {
 		if (sortType < 1 || sortType > 3) {
 			return null;
 		}
@@ -30,8 +30,9 @@ public class TextSortAction {
 		} else if (sortType == 2) {
 			for (int i = 0; i < textPartList.size(); i++) {
 				result.append(textPartList.get(i).sort(sortType));
-				result.append("\n");
-				result.append("\n");
+				if (i != textPartList.size() - 1) {
+					result.append("\n-|-------------New Paragraph-------------------|-\n");
+				}
 			}
 			return result.toString();
 		} else {
@@ -43,18 +44,20 @@ public class TextSortAction {
 		}
 	}
 
-	public static String paragraphSort(int sortType, List<Sentence> textPartList){
+	public static String paragraphSort(int sortType, List<Sentence> textPartList) {
 		StringBuilder result = new StringBuilder();
-		if(sortType == 2){
+		if (sortType == 2) {
 			for (int i = 0; i < textPartList.size(); i++) {
 				result.append(textPartList.get(i).sort(sortType));
-				result.append("*****");
+				if(i != textPartList.size()-1){
+					result.append("<<New Sentence>>");
+				}
 			}
 		}
-		if(sortType ==3){
-			for (int j = 1; j < 100; j++){
-				for (int i = 0; i < textPartList.size(); i++){
-					if(textPartList.get(i).numOfWordInSentence() == j){
+		if (sortType == 3) {
+			for (int j = 1; j < 100; j++) {
+				for (int i = 0; i < textPartList.size(); i++) {
+					if (textPartList.get(i).numOfWordInSentence() == j) {
 						result.append(textPartList.get(i).getInformation());
 					}
 				}
@@ -63,20 +66,17 @@ public class TextSortAction {
 		return result.toString();
 	}
 
-	public static String sentenceSort(int sortType, List<Word> textPartList){
+	public static String sentenceSort(int sortType, List<Word> textPartList) {
 		StringBuilder result = new StringBuilder();
-		if(sortType == 2){
+		if (sortType == 2) {
 			for (int i = 1; i < 100; i++) {
 				for (int j = 0; j < textPartList.size(); j++) {
-					if(Integer.parseInt(textPartList.get(j).sort(sortType)) == i){
+					if (Integer.parseInt(textPartList.get(j).sort(sortType)) == i) {
 						result.append(textPartList.get(j).getInformation());
-						result.append("|");
+						//result.append("|");
 					}
 				}
 			}
-		}
-		if(sortType == 3){
-
 		}
 		return result.toString();
 	}

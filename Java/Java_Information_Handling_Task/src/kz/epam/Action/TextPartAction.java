@@ -1,7 +1,6 @@
 package kz.epam.Action;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -17,14 +16,14 @@ public class TextPartAction {
 		return result;
 	}
 
-	public static int chooseSortType(){
+	public static int chooseSortType() {
 		System.out.println("Choose Sort Type for text:");
 		System.out.println("[1] Отсортировать абзацы по количеству предложений");
 		System.out.println("[2] Отсортировать слова в предложений по длине");
 		System.out.println("[3] Отсортировать предложения в абзаце по количеству слов");
 		Scanner scanner = new Scanner(System.in);
 		int inputInt = scanner.nextInt();
-		while(inputInt<1 || inputInt>3){
+		while (inputInt < 1 || inputInt > 3) {
 			System.out.println("Invalid input try again");
 			inputInt = scanner.nextInt();
 		}

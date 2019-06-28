@@ -7,10 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Sentence implements TextPart, TextSort {
-	private String sentenceContent = "";
+	private String sentenceContent;
 	private List<Word> textPartList = new ArrayList<>();
 	private static final String regexWord = "\\s?[a-zA-Z,]+(\\s|\\.)";
 	private List<String> word;
+
 	public Sentence(String sentence) {
 		sentenceContent = sentence;
 		word = TextPartAction.regexFinder(regexWord, sentenceContent);
@@ -24,19 +25,12 @@ public class Sentence implements TextPart, TextSort {
 		return sentenceContent;
 	}
 
-	public List<Word> getTextPartList(){
-		List<Word> clone = new ArrayList<>();
-		for (int i = 0; i < textPartList.size(); i++) {
-			clone.add(textPartList.get(i));
-		}
-		return clone;
-	}
 	@Override
 	public String sort(int sortType) {
-		return TextSortAction.sentenceSort(sortType,textPartList);
+		return TextSortAction.sentenceSort(sortType, textPartList);
 	}
 
-	public int numOfWordInSentence(){
+	public int numOfWordInSentence() {
 		return word.size();
 	}
 }

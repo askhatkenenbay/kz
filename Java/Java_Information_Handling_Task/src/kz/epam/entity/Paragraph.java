@@ -7,10 +7,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Paragraph implements TextPart, TextSort {
-	private String paragraphContent = "";
+	private final String paragraphContent;
 	private List<Sentence> textPartList = new ArrayList<>();
 	private static final String regexSentence = "\t?[A-Z][^\\.]+\\.";
 	private List<String> sentence;
+
 	public Paragraph(String str) {
 		paragraphContent = str;
 		sentence = TextPartAction.regexFinder(regexSentence, paragraphContent);
@@ -29,15 +30,12 @@ public class Paragraph implements TextPart, TextSort {
 		return paragraphContent;
 	}
 
-	public List<Sentence> getTextPartList(){
-		List<Sentence> clone = new ArrayList<>();
-		for (int i = 0; i < textPartList.size(); i++) {
-			clone.add(textPartList.get(i));
-		}
-		return clone;
+	public List<Sentence> getTextPartList() {
+		return new ArrayList<>(textPartList);
 	}
+
 	@Override
 	public String sort(int sortType) {
-		return TextSortAction.paragraphSort(sortType,this.getTextPartList());
+		return TextSortAction.paragraphSort(sortType, this.getTextPartList());
 	}
 }

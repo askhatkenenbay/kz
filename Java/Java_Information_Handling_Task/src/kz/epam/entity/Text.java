@@ -30,18 +30,16 @@ public class Text implements TextPart, TextSort {
 	}
 
 
-	public List<Paragraph> getTextPartList(){
-		List<Paragraph> clone = new ArrayList<>();
-		for (int i = 0; i < textPartList.size(); i++) {
-			clone.add(textPartList.get(i));
-		}
-		return clone;
+	public List<Paragraph> getTextPartList() {
+		return new ArrayList<>(textPartList);
 	}
+
 	public String sort() {
 		return sort(TextPartAction.chooseSortType());
 	}
+
 	@Override
 	public String sort(int sortType) {
-		return TextSortAction.sort(sortType,this.getTextPartList());
+		return TextSortAction.sort(sortType, this.getTextPartList());
 	}
 }

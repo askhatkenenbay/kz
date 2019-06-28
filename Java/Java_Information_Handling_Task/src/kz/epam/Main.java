@@ -7,6 +7,6 @@ import kz.epam.entity.Text;
 public class Main {
 	public static void main(String[] args) {
 		Text example = new Text("TextExample");
-		System.out.println(example.sort(2));
+		System.out.println(example.sort());
 	}
 }

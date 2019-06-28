@@ -1,6 +1,7 @@
 package kz.epam.entity;
 
 import kz.epam.Action.TextPartAction;
+import kz.epam.Action.TextSortAction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,30 +24,20 @@ public class Paragraph implements TextPart, TextSort {
 	}
 
 	@Override
-	public String showInformation() {
+	public String getInformation() {
 
 		return paragraphContent;
 	}
 
-
+	public List<Sentence> getTextPartList(){
+		List<Sentence> clone = new ArrayList<>();
+		for (int i = 0; i < textPartList.size(); i++) {
+			clone.add(textPartList.get(i));
+		}
+		return clone;
+	}
 	@Override
 	public String sort(int sortType) {
-		StringBuilder result = new StringBuilder();
-		if(sortType == 2){
-			for (int i = 0; i < textPartList.size(); i++) {
-				result.append(textPartList.get(i).sort(sortType));
-				result.append("*****");
-			}
-		}
-		if(sortType ==3){
-			for (int j = 1; j < 100; j++){
-				for (int i = 0; i < textPartList.size(); i++){
-					if(textPartList.get(i).numOfWordInSentence() == j){
-						result.append(textPartList.get(i).showInformation());
-					}
-				}
-			}
-		}
-		return result.toString();
+		return TextSortAction.paragraphSort(sortType,this.getTextPartList());
 	}
 }

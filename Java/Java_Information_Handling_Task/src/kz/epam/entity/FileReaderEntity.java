@@ -2,7 +2,7 @@ package kz.epam.entity;
 
 import kz.epam.Action.FileReadAction;
 
-public class FileReaderEntity {
+public final class FileReaderEntity {
 
 	private  String fileContent = "";
 

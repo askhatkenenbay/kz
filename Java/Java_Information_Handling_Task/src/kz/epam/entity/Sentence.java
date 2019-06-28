@@ -1,6 +1,7 @@
 package kz.epam.entity;
 
 import kz.epam.Action.TextPartAction;
+import kz.epam.Action.TextSortAction;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,28 +20,20 @@ public class Sentence implements TextPart, TextSort {
 	}
 
 	@Override
-	public String showInformation() {
+	public String getInformation() {
 		return sentenceContent;
 	}
 
-
+	public List<Word> getTextPartList(){
+		List<Word> clone = new ArrayList<>();
+		for (int i = 0; i < textPartList.size(); i++) {
+			clone.add(textPartList.get(i));
+		}
+		return clone;
+	}
 	@Override
 	public String sort(int sortType) {
-		StringBuilder result = new StringBuilder();
-		if(sortType == 2){
-			for (int i = 1; i < 100; i++) {
-				for (int j = 0; j < textPartList.size(); j++) {
-					if(Integer.parseInt(textPartList.get(j).sort(sortType)) == i){
-						result.append(textPartList.get(j).showInformation());
-						result.append("|");
-					}
-				}
-			}
-		}
-		if(sortType == 3){
-
-		}
-		return result.toString();
+		return TextSortAction.sentenceSort(sortType,textPartList);
 	}
 
 	public int numOfWordInSentence(){

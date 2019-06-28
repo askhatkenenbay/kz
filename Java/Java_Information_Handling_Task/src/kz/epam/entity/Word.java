@@ -9,7 +9,7 @@ public class Word implements TextPart , TextSort{
 
 
 	@Override
-	public String showInformation() {
+	public String getInformation() {
 
 		return word;
 	}

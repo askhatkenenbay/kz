@@ -96,6 +96,8 @@ public class MatrixSingleton {
 		}
 		for (int i = 0; i < threads.length; i++) {
 			threads[i].start();
+		}
+		for (int i = 0; i < threads.length; i++) {
 			try {
 				threads[i].join();
 			} catch (InterruptedException e) {

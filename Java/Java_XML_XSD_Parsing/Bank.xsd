@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <schema xmlns="http://www.w3.org/2001/XMLSchema"
-        targetNamespace="http://www.example.com/Banks"
-        xmlns:tns="http://www.example.com/Banks">
+        targetNamespace="http://www.example.com/banks"
+        xmlns:tns="http://www.example.com/banks"
+        elementFormDefault="qualified">
     <element name="banks">
         <complexType>
             <sequence>
@@ -14,14 +14,16 @@
     <complexType name="Bank">
         <all>
             <element name="amount-on-deposit" type="positiveInteger"/>
-            <element name="profitability" type="tns:Profitability"/>
+            <element name="profitability" type="double"/>
             <element name="time-constraints" type="tns:Time-constraints"/>
         </all>
         <attribute name="name" type="tns:Name" use="required"/>
         <attribute name="country" type="tns:Country" use="optional" default="Kazakhstan"/>
-        <attribute name="type" type="string" use="required" default="до востребования">
+        <attribute name="depositor" type="string" use="optional" />
+        <attribute name="account-id" type="string" use="required"/>
+        <attribute name="type" use="optional" default="до востребования">
             <simpleType>
-                <restriction>
+                <restriction base="string">
                     <enumeration value="до востребования"/>
                     <enumeration value="срочный"/>
                     <enumeration value="расчетный"/>
@@ -31,30 +33,22 @@
                 </restriction>
             </simpleType>
         </attribute>
-        <attribute name="depositor" type="string" use="optional" default="Default Depositor"/>
-        <attribute name="account-id" type="tns:Account-id" use="required"/>
     </complexType>
 
     <simpleType name="Name">
-        <restriction base="ID">
-            <pattern value="[A-Z][a-z]{1,15}"/>
+        <restriction base="string">
+            <pattern value="[A-Z]{2,7}|[A-Z][a-z]{1,10}"/>
         </restriction>
     </simpleType>
 
     <simpleType name="Country">
-        <restriction>
+        <restriction base="string">
             <pattern value="[A-Z]{2,3}|[A-Z][a-z]{2,15}"/>
         </restriction>
     </simpleType>
 
-    <simpleType name="Account-id">
-        <restriction base="ID">
-            <pattern value="([0-9]{4}\\s){3}[0-9]{4}"/>
-        </restriction>
-    </simpleType>
-
     <simpleType name="Profitability">
-        <restriction>
+        <restriction base="double">
             <pattern value="100|100\\.0|[0-9][0-9]\\.[0-9]{0,3}|[0-9]\\.[0-9]{0,3}|[0-9]{1,2}"/>
         </restriction>
     </simpleType>
@@ -68,23 +62,23 @@
     </complexType>
 
     <simpleType name="Years">
-        <restriction>
+        <restriction base="string">
             <!-- between 1 year to 25 years -->
             <pattern value="[1-9]|1[0-9]|2[0-5]"/>
         </restriction>
     </simpleType>
 
     <simpleType name="Months">
-        <restriction>
+        <restriction base="string">
             <!--between 1 month to 12 months -->
             <pattern value="[1-9]|1[012]"/>
         </restriction>
     </simpleType>
 
     <simpleType name="Days">
-        <restriction>
+        <restriction base="string">
             <!-- between 1 day to 31 days-->
-            <pattern value="[1-9]|[12][0-9]|3[01]"/>
+            <pattern value="[0-9]|[12][0-9]|3[01]"/>
         </restriction>
     </simpleType>
 

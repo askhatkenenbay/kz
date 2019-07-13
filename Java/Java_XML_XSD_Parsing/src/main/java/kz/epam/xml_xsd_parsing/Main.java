@@ -1,39 +1,44 @@
 package kz.epam.xml_xsd_parsing;
 
-import com.sun.org.apache.xerces.internal.parsers.DOMParser;
-import org.xml.sax.SAXException;
-import org.xml.sax.SAXNotRecognizedException;
-import org.xml.sax.SAXNotSupportedException;
 
+import kz.epam.xml_xsd_parsing.entity.AbstractBanksBuilder;
+import kz.epam.xml_xsd_parsing.entity.Bank;
+import kz.epam.xml_xsd_parsing.entity.BankBuilderFactory;
+import kz.epam.xml_xsd_parsing.entity.BanksSAXBuilder;
 
-import java.io.IOException;
+import javax.xml.XMLConstants;
+import javax.xml.transform.Source;
+import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import javax.xml.validation.Validator;
+import java.io.File;
+import java.util.Iterator;
 
 public class Main {
 	public static void main(String[] args){
-		String accountId = "7854 4569 8521 1235 4444 4444 4444 4444";
-		String regex = "([0-9]{4}\\s){3}[0-9]{4}";
-		System.out.println(patternFinder.regexFinder(regex,accountId));
-
-
-		String filename = "Bank.xml";
-		DOMParser parser = new DOMParser();
+		String language = XMLConstants.W3C_XML_SCHEMA_NS_URI;
+		String fileName = "Bank.xml";
+		String schemaName = "Bank.xsd";
+		SchemaFactory factory = SchemaFactory.newInstance(language);
+		File schemaLocation = new File(schemaName);
 		try{
-			parser.setFeature("http://xml.org/sax/features/validation", true);
-			parser.setFeature("http://apache.org/xml/features/validation/schema", true);
-			parser.parse(filename);
-		}catch (SAXNotRecognizedException e) {
+			Schema schema = factory.newSchema(schemaLocation);
+			Validator validator = schema.newValidator();
+			Source source = new StreamSource(fileName);
+			validator.validate(source);
+			System.out.println(fileName + " is valid");
+		}catch(Exception e){
 			e.printStackTrace();
-			System.out.print("идентификатор не распознан");
-		} catch (SAXNotSupportedException e) {
-			e.printStackTrace();
-			System.out.print("неподдерживаемая операция");
-		} catch (SAXException e) {
-			e.printStackTrace();
-			System.out.print("глобальная SAX ошибка ");
-		} catch (IOException e) {
-			e.printStackTrace();
-			System.out.print("ошибка I/O потока");
 		}
-		System.out.print("проверка " + filename + " завершена");
+
+		String type = "StAX";
+		AbstractBanksBuilder builder = BankBuilderFactory.createBankBuilder(type);
+		builder.buildSetBanks("Bank.xml");
+		Iterator<Bank> iterator = builder.getBanks().iterator();
+		while(iterator.hasNext()){
+			System.out.println(iterator.next());
+		}
+
 	}
 }

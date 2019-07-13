@@ -1,6 +1,8 @@
 <?xml version= "1.0" encoding="UTF-8" ?>
+<banks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.example.com/banks"
+       xsi:schemaLocation="http://www.example.com/banks bank.xsd">
 
-<banks>
     <!-- 1 -->
     <bank name="Kaspi" country="Kazakhstan" type="расчетный" account-id="4789 5214 3240 2128" depositor="Billy">
         <amount-on-deposit>7878</amount-on-deposit>
@@ -130,7 +132,7 @@
         <time-constraints>
             <years>6</years>
             <months>7</months>
-            <days>211</days>
+            <days>21</days>
         </time-constraints>
     </bank>
     <!-- 14 -->

@@ -1,0 +1,17 @@
+
+Fsquid:S1148."#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¢„¯¾-
+osquid:UselessImportCheck"?Remove this unused import 'javax.xml.validation.SchemaFactory'.(¹ÍÛˆşÿÿÿÿ8Îõ®¾-
+csquid:UselessImportCheck"8Remove this unused import 'javax.xml.validation.Schema'.(±àü8Îõ®¾-
+Fsquid:S1148&"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÃÙ¯¾-
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(Óâ¼­ûÿÿÿÿ8œ¯¾-
+nsquid:UselessImportCheck">Remove this unused import 'javax.xml.transform.dom.DOMSource'.(¾Ñ¶âùÿÿÿÿ8Îõ®¾-
+ksquid:UselessImportCheck";Remove this unused import 'javax.xml.validation.Validator'.(¦¸òúûÿÿÿÿ8Îõ®¾-
+Fsquid:S11480"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8¢„¯¾-
+bsquid:S2147/"DCombine this catch with the one at line 45, which has the same body.(ï­£Ä8¢„¯¾-
+dsquid:S22594"FA "NullPointerException" could be thrown; "document" is nullable here.(µ ×Ò8¢„¯¾-
+qsquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ëš¡úÿÿÿÿ8¶ó—ª¾-
+^squid:UselessImportCheck"3Remove this unused import 'javax.xml.XMLConstants'.(Ğøš8Îõ®¾-
+]squid:S1118":Add a private constructor to hide the implicit public one.(ëš¡úÿÿÿÿ8¶ó—ª¾-
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Šı¥±8Ü¦ç®¾-
+hsquid:S2259,"EA "NullPointerException" could be thrown; "builder" is nullable here.(Î¿ç×üÿÿÿÿ8¢„¯¾-

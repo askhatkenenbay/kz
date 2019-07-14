@@ -1,0 +1,7 @@
+
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(µΙ8µ¥Ρ¬Ύ-
+Fsquid:S1148 "#Use a logger to log this exception.(€ΙΤ…ύÿÿÿÿ8Λ’Ν¬Ύ-
+[
+squid:S106("9Replace this use of System.out or System.err by a logger.(΅Ή—Òψÿÿÿÿ8‰¶ιηΎ-
+{squid:UselessImportCheck"KRemove this unused import 'kz.epam.xml_xsd_parsing.entity.BanksSAXBuilder'.(±δσϋÿÿÿÿ8‰¶ιηΎ-

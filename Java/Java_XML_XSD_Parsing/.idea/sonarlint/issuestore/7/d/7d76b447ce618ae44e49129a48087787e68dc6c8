@@ -1,4 +1,0 @@
-
-Msquid:S1068"*Remove this unused "reader" private field.(½¿Ôøÿÿÿÿ8éşÜÙ¾-
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(¬Ô‘­8îÚÙ¾-
-squid:UselessImportCheck"TRemove this unnecessary import: same package classes are always implicitly imported.(¦…­ó8½»œÛ¾-

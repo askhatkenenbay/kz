@@ -1,12 +1,0 @@
-
-Psquid:S1068"2Remove this unused "timeConstraint" private field.(€›ğ“8û†ÔÙ¾-
-Nsquid:S1068
-"1Remove this unused "profitability" private field.(Ùí 8ù½ÑÙ¾-
-Ksquid:S1068"-Remove this unused "accountId" private field.(ßÒìÈ8’–ÎÙ¾-
-Qsquid:S1068	"3Remove this unused "amountOnDeposit" private field.(¿ù¡8‹¢ĞÙ¾-
-Ÿsquid:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ìÉ›8û†ÔÙ¾-
-ssquid:S00116"TRename this field "Depositor" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(À¢éÂ8¢“ÏÙ¾-
-Ksquid:S1068"(Remove this unused "type" private field.(–î†ûÿÿÿÿ8ÿ¿ËÙ¾-
-Ksquid:S1068"-Remove this unused "Depositor" private field.(À¢éÂ8¢“ÏÙ¾-
-Nsquid:S1068"+Remove this unused "country" private field.(“—àÊúÿÿÿÿ8“ÊÙ¾-
-Fsquid:S1068"(Remove this unused "name" private field.(Ë¥¼8ˆ´ÈÙ¾-

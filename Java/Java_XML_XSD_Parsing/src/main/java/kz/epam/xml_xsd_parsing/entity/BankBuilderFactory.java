@@ -15,9 +15,6 @@ public class BankBuilderFactory {
 	}
 
 	public static AbstractBanksBuilder createBankBuilder(String typeParser) {
-		if (typeParser.length() < 3 || typeParser.length() > 4) {
-			return null;
-		}
 		TypeParser type = TypeParser.valueOf(typeParser.toUpperCase());
 		switch (type) {
 			case DOM:

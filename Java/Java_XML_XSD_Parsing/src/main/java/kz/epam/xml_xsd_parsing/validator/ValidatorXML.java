@@ -10,16 +10,17 @@ import java.io.File;
 
 public class ValidatorXML {
 	private static final String language = XMLConstants.W3C_XML_SCHEMA_NS_URI;
-	public static boolean validateXML(String xmlFileName, String xsdFileName){
+
+	public static boolean validateXML(String xmlFileName, String xsdFileName) {
 		SchemaFactory factory = SchemaFactory.newInstance(language);
 		File schemaLocation = new File(xsdFileName);
-		try{
+		try {
 			Schema schema = factory.newSchema(schemaLocation);
 			Validator validator = schema.newValidator();
 			Source source = new StreamSource(xmlFileName);
 			validator.validate(source);
 			return true;
-		}catch(Exception e){
+		} catch (Exception e) {
 			return false;
 		}
 	}

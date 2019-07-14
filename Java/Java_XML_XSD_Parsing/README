@@ -1,0 +1,5 @@
+Java 11
+for logging was used Log4J
+for testing was used TestNG framework
+test class is in Java_XML_XSD_Parsing/src/test/java/XMLTests.java
+xml & xsd files in Java_XML_XSD_Parsing

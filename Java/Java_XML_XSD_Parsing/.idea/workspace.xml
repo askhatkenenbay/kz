@@ -18,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
+            <state relative-caret-position="204">
+              <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,40 +28,54 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankEnum.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksSAXBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="318">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
               <folding>
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#444#445#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/Bank.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/XMLTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="119">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#391#392#0" expanded="true" />
-                <element signature="e#434#435#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#500#501#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#570#571#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-                <element signature="e#650#651#0" expanded="true" />
-                <element signature="e#678#679#0" expanded="true" />
-                <element signature="e#734#735#0" expanded="true" />
-                <element signature="e#779#780#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#875#876#0" expanded="true" />
-                <element signature="e#1053#1054#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bank.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Bank.xsd">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksStAXBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-22">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,18 +110,24 @@
         <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankEnum.java" />
         <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/AbstractBanksBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/Bank.java" />
-        <option value="$PROJECT_DIR$/Bank.xsd" />
         <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksDOMBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksSAXBuilder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksStAXBuilder.java" />
         <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/XMLTests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankBuilderFactory.java" />
         <option value="$PROJECT_DIR$/src/test/java/XMLTestsJUnit.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/XMLTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/validator/ValidatorXML.java" />
+        <option value="$PROJECT_DIR$/Bank.xsd" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/BankBuilderFactoryAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankBuilderFactory.java" />
+        <option value="$PROJECT_DIR$/src/test/java/XMLTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/action/BanksStAXBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/action/BankBuilderFactoryAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/action/BanksDOMBuilderAction.java" />
+        <option value="$PROJECT_DIR$/Bank.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksDOMBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/action/BanksStAXBuilderAction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksStAXBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksSAXBuilder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankHandler.java" />
       </list>
     </option>
   </component>
@@ -129,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
@@ -149,11 +168,67 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java_XML_XSD_Parsing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_XML_XSD_Parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_XML_XSD_Parsing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_XML_XSD_Parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xml_xsd_parsing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_XML_XSD_Parsing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_XML_XSD_Parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xml_xsd_parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_XML_XSD_Parsing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_XML_XSD_Parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xml_xsd_parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_XML_XSD_Parsing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_XML_XSD_Parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xml_xsd_parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="validator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_XML_XSD_Parsing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_XML_XSD_Parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_XML_XSD_Parsing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java_XML_XSD_Parsing" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -233,7 +308,7 @@
       <module name="Java_XML_XSD_Parsing" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="kz.epam.xml_xsd_parsing.*" />
+          <option name="PATTERN" value="kz.epam.xml_xsd_parsing.action.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -271,39 +346,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="XMLTests_validateBankBuilderFactoryWithInvalidInput - 2019.07.14 at 13h 23m 42s.xml">
-      <configuration name="XMLTests.validateBankBuilderFactoryWithInvalidInput" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="XMLTests_validateBankBuilderFactoryWithInvalidInput - 2019.07.14 at 13h 24m 47s.xml">
-      <configuration name="XMLTests.validateBankBuilderFactoryWithInvalidInput" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="XMLTests_validateBankBuilderFactoryWithInvalidInput - 2019.07.14 at 13h 25m 02s.xml">
-      <configuration name="XMLTests.validateBankBuilderFactoryWithInvalidInput" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="XMLTests_validateBankBuilderFactoryWithInvalidInput - 2019.07.14 at 13h 26m 10s.xml">
-      <configuration name="XMLTests.validateBankBuilderFactoryWithInvalidInput" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="XMLTests_validateBankBuilderFactoryWithInvalidInput - 2019.07.14 at 13h 26m 28s.xml">
-      <configuration name="XMLTests.validateBankBuilderFactoryWithInvalidInput" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="XMLTests - 2019.07.14 at 13h 27m 06s.xml">
+    <history-entry file="XMLTests - 2019.07.14 at 20h 45m 38s.xml">
       <configuration name="XMLTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XMLTests_testBankHandlersMethodCharactersWithInvalidInput - 2019.07.14 at 13h 37m 07s.xml">
-      <configuration name="XMLTests.testBankHandlersMethodCharactersWithInvalidInput" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="XMLTests - 2019.07.14 at 13h 38m 40s.xml">
+    <history-entry file="XMLTests - 2019.07.14 at 20h 46m 01s.xml">
       <configuration name="XMLTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XMLTests - 2019.07.14 at 13h 44m 49s.xml">
+    <history-entry file="XMLTests - 2019.07.14 at 20h 47m 14s.xml">
       <configuration name="XMLTests" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="XMLTests - 2019.07.14 at 13h 55m 11s.xml">
+    <history-entry file="XMLTests - 2019.07.14 at 20h 49m 32s.xml">
+      <configuration name="XMLTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XMLTests - 2019.07.14 at 20h 50m 26s.xml">
+      <configuration name="XMLTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XMLTests - 2019.07.14 at 20h 51m 32s.xml">
+      <configuration name="XMLTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XMLTests - 2019.07.14 at 20h 52m 54s.xml">
+      <configuration name="XMLTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XMLTests - 2019.07.14 at 20h 54m 37s.xml">
+      <configuration name="XMLTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XMLTests - 2019.07.14 at 20h 54m 55s.xml">
+      <configuration name="XMLTests" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="XMLTests - 2019.07.14 at 20h 58m 31s.xml">
       <configuration name="XMLTests" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22913617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -312,10 +388,9 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection Results" weight="0.1342812" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.90702784" visible="true" weight="0.38546604" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.328594" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.90702784" visible="true" weight="0.36808845" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -325,6 +400,7 @@
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.09297218" side_tool="true" weight="0.39810428" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.75183016" weight="0.328594" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" weight="0.1342812" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -391,50 +467,10 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/patternFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bank.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bank.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="127" column="53" selection-start-line="127" selection-start-column="53" selection-end-line="127" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/XMLTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="4" selection-start-line="5" selection-start-column="4" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="18" column="82" lean-forward="true" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="82" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/XMLTestsJUnit.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/patternFinder.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/XMLTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/Main.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/XMLTestsJUnit.java" />
     <entry file="file://$PROJECT_DIR$/log/logging.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="-224" />
@@ -450,13 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/XMLTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/action/BanksStAXBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-697">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -470,57 +503,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksStAXBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2499">
-          <caret line="149" column="13" selection-start-line="149" selection-start-column="13" selection-end-line="149" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksSAXBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksDOMBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="72" column="23" selection-start-line="72" selection-start-column="23" selection-end-line="72" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankBuilderFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankEnum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           <folding>
             <element signature="e#419#420#0" expanded="true" />
             <element signature="e#444#445#0" expanded="true" />
@@ -528,23 +514,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/AbstractBanksBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#193#194#0" expanded="true" />
-            <element signature="e#223#224#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/Bank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="17">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#368#369#0" expanded="true" />
@@ -563,6 +535,122 @@
             <element signature="e#875#876#0" expanded="true" />
             <element signature="e#1053#1054#0" expanded="true" />
             <element signature="e#1086#1087#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/AbstractBanksBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankBuilderFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/action/BankBuilderFactoryAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/action/BanksDOMBuilderAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksDOMBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding>
+            <element signature="e#1075#1076#0" expanded="true" />
+            <element signature="e#1152#1153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/action/BanksStAXBuilderAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bank.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksStAXBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BanksSAXBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/epam/xml_xsd_parsing/entity/BankHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/XMLTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

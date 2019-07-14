@@ -28,12 +28,24 @@ public class BankHandler extends DefaultHandler {
 		if ("bank".equals(localName)) {
 			currentBank = new Bank();
 			currentBank.setName(attrs.getValue("name"));
-			currentBank.setCountry(attrs.getValue("country"));
-			if (attrs.getValue("depositor") != null || attrs.getValue("depositor").length() != 0) {
-				currentBank.setDepositor(attrs.getValue("depositor"));
+			if (attrs.getValue("country") != null && attrs.getValue("country").length() != 0) {
+				currentBank.setCountry(attrs.getValue("country"));
+			} else {
+				currentBank.setCountry("Kazakhstan");
+			}
+			try {
+				if (attrs.getValue("depositor") != null || attrs.getValue("depositor").length() != 0) {
+					currentBank.setDepositor(attrs.getValue("depositor"));
+				}
+			} catch (NullPointerException e) {
+
 			}
 			currentBank.setAccountId(attrs.getValue("account-id"));
-			currentBank.setType(attrs.getValue("type"));
+			if (attrs.getValue("type") != null && attrs.getValue("type").length() != 0) {
+				currentBank.setType(attrs.getValue("type"));
+			} else {
+				currentBank.setType("до востребования");
+			}
 		} else {
 			String str = localName.toUpperCase();
 			StringBuilder stringBuilder = new StringBuilder();

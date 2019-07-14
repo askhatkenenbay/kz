@@ -7,12 +7,8 @@ A
 log/logging.log.1,2\e\2e310e82c41663b8ad8d37dde306223525eedb3e
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-_
-/src/main/java/kz/epam/xml_xsd_parsing/Main.java,c\b\cbcc0f817c9257f5ada5f816086de58058ba47d7
 8
 Bank.xml,2\8\284ee836a93e50dfd190d4c91f8f81552f0f17c6
-h
-8src/main/java/kz/epam/xml_xsd_parsing/patternFinder.java,e\b\ebf312759ff0efe07c4de16da9653b7abb540440
 8
 Bank.xsd,6\c\6cf851c780bf203f3630dcd0d813e088fb7c829e
 f
@@ -27,3 +23,11 @@ v
 Fsrc/main/java/kz/epam/xml_xsd_parsing/entity/AbstractBanksBuilder.java,2\5\25b529161ae4bc04773a38ff992258ca13d6fdfd
 q
 Asrc/main/java/kz/epam/xml_xsd_parsing/entity/BanksDOMBuilder.java,4\b\4bbe84e13c686afb6ff801eba274b542e9d3c308
+K
+src/test/java/XMLTests.java,b\e\be98b7da7a7e9f47d4a0a1f7274b8fc0e7e1a6f4
+q
+Asrc/main/java/kz/epam/xml_xsd_parsing/validator/ValidatorXML.java,f\2\f254a565d99b4d8493b04e232c95007d8b239322
+m
+=src/main/java/kz/epam/xml_xsd_parsing/entity/BankHandler.java,4\7\478a1292e275243d3a5a2907b4db31e1d95d8e5b
+j
+:src/main/java/kz/epam/xml_xsd_parsing/entity/BankEnum.java,8\3\83ccb03a094b1ddbce373678f03c94ed3fc0228d

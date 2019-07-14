@@ -3,6 +3,7 @@ import kz.epam.xml_xsd_parsing.validator.ValidatorXML;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+
 import static org.testng.Assert.assertTrue;
 
 //TestNG framework

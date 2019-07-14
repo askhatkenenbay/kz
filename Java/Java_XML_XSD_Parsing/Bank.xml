@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.example.com/banks bank.xsd">
 
     <!-- 1 -->
-    <bank name="Kaspi" country="Kazakhstan" type="расчетный" account-id="4789 5214 3240 2128" depositor="Billy">
+    <bank name="Kaspi" country="Kazakhstan" type="расчетный" account-id="4789 5214 3240 2128" >
         <amount-on-deposit>7878</amount-on-deposit>
         <profitability>12.7</profitability>
         <time-constraints>
@@ -14,7 +14,7 @@
         </time-constraints>
     </bank>
     <!-- 2 -->
-    <bank name="Halyk" country="Kazakhstan" type="до востребования" account-id="4159 5648 2078 1432" depositor="Tommy">
+    <bank name="Halyk"  type="до востребования" account-id="4159 5648 2078 1432" depositor="Tommy">
         <amount-on-deposit>1188</amount-on-deposit>
         <profitability>13.5</profitability>
         <time-constraints>
@@ -24,7 +24,7 @@
         </time-constraints>
     </bank>
     <!-- 3 -->
-    <bank name="Santander" country="Spain" type="срочный" account-id="7814 5621 4209 7432" depositor="Alejandro">
+    <bank name="Santander" country="Spain"  account-id="7814 5621 4209 7432" depositor="Alejandro">
         <amount-on-deposit>2514</amount-on-deposit>
         <profitability>11.2</profitability>
         <time-constraints>

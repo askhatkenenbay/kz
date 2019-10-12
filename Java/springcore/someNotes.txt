@@ -1,0 +1,22 @@
+-Externalize static data: use non-binary and non-code files
+-Decouple with interfaces: use with multiple implementations
+-Inject dependencies: let objects receive and not create objects
+-loose coupling: dependencies are injected into objects
+-bean id="..." : formal XML attribute, can have only single value
+-bean name="..." : can have several values divided with comma/space/semicolon
+	all those values are aliases of a bean
+-id and name can be present together
+-BeanFactory : simple container that supports only DI
+-ApplicationContext : supports DI + framework services
+-By default all beans are singletons(within container)
+-Scope prototype : new object on every getBean() call
+-Scope in web applications : request,session,global-session
+-Inner beans : visible where they are defined, can't be reused
+-Actions for initializing bean's state after creation : for example, to add check for file write access and create file
+-init-method : no arguments, any access modifier, can return something or throw Exception
+-depends-on : two beand not connected, one initiallize after other, can have several
+-lazy-init : bean does not create at first until get bean called, if have reference no change
+-Autowire : byName, byType, constructor, cannot be used with primitives,String and class,
+direct reference has higher priority
+- c: --> constructor arg
+- p: --> property
